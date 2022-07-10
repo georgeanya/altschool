@@ -55,7 +55,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     for (let i = 0; i < arrayOfNumbers.length; i++) {
         arrayOfNumbersInF.push(Math.trunc(arrayOfNumbers[i] * (9 / 5) + 32));
     }
-
     return arrayOfNumbersInF;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
